@@ -13,7 +13,7 @@ dssim.dssim(vnode reference, vnode distorted)
 > 
 > Only RGB24 supported,it's dssim's c api limited (maybe).
 > 
-> It's very slow.
+> It's slow.
 
 ## Build
 > [!CAUTION] 
@@ -21,6 +21,6 @@ dssim.dssim(vnode reference, vnode distorted)
 > 
 > Read [dssim repository](https://github.com/kornelski/dssim?tab=readme-ov-file#usage-from-c) for help.
 ```shell
-meson setup build --release
+meson setup build
 ninja -C build
 ```

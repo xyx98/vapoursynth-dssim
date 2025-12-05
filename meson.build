@@ -4,7 +4,7 @@ project('vapoursynth-dssim', 'c',
     version: '1.0.0'
 )
 
-add_project_arguments('-Wno-unused-parameter','-Wno-discarded-qualifiers', language : 'c')
+add_project_arguments('-Wno-incompatible-pointer-types','-Wno-unused-parameter','-Wno-discarded-qualifiers', language : 'c')
 
 sources = [ 
     'dssim.c',
